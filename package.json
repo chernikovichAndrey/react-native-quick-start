@@ -1,0 +1,17 @@
+{
+  "name": "react-native-quick-start",
+  "version": "1.0.0",
+  "description": "Custom React Native project generator",
+  "main": "bin/create-project.js",
+  "type": "module",
+  "bin": {
+    "create-react-native-project": "./bin/create-project.js"
+  },
+  "scripts": {
+    "create-project": "node bin/create-project.js"
+  },
+  "dependencies": {
+    "inquirer": "9.2.22",
+    "simple-git": "3.24.0"
+  }
+}
