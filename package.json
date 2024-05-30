@@ -1,6 +1,6 @@
 {
   "name": "react-native-quick-start",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom React Native project generator",
   "main": "bin/create-project.js",
   "type": "module",

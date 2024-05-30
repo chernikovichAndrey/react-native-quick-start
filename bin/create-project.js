@@ -63,7 +63,7 @@ async function cloneTemplate(targetPath) {
 async function renameProject(targetPath, projectName, applicationId) {
   console.log('Renaming project...');
   try {
-    execSync(`cd ${targetPath} && npx react-native-rename@latest "${projectName}" -b "${applicationId}" --skipGitStatusCheck`, {
+    execSync(`cd ${targetPath} && npx react-native-rename@latest "${projectName}" -b "${applicationId}"`, {
       stdio: 'inherit'
     });
   } catch (error) {
